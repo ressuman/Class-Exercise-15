@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EXERCISE 15</title>
+</head>
+<body>
+  
+
+
+  <script>
+
+    //ARRAYS
+    let colleagues=['Adumtwumwaa','Prince','Naomi','Daniel','Solomon']
+    console.log(colleagues);
+
+    //FOR LOOP
+    // let number=0
+    // for (colleagues=0;colleagues<5;colleagues++) {
+    //   number=number+1
+    //   console.log(colleagues);
+    // }
+    for (let index = 0; index < colleagues.length; index++) {
+      const element = colleagues[index];
+      console.log(colleagues[index]);
+    }
+    for (let i = 0; i < colleagues.length; i++) {
+      console.log('My name is ' + colleagues[i] + '.');
+      
+    }
+
+    //IF ELSE
+    let morning=true
+    if (morning==true) {
+    console.log('Good Morning, class. I hope you are having a nice day.');
+    }else{
+    console.log("Good Afternoon, class. I hope you are having a nice day.");
+    }
+
+    //IF ELSE IF
+    let rows=10
+    if (rows<8) {
+        console.log('Stand up, class.');
+    }else if (rows>2 && rows<9) {
+        console.log('March forward, Class.');
+    }else if (rows=10) {
+        console.log('Sit down, Class.');
+    }else {
+        console.log('Class dismissed');
+    }
+
+
+
+  </script>
+</body>
+</html>
